@@ -13,7 +13,7 @@ export default new Vuex.Store({
         price: 50,
         ratings: 3,
         reviews: 5,
-        isAddedToCart: false
+        isAddedToCart: true 
       },
       {
         id: 2,

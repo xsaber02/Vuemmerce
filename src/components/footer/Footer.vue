@@ -2,10 +2,10 @@
   <div class="footer has-text-centered">
     <div class="columns ">
       <div class="column">
-        <p>Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.</p>
+        <p>We hope all of you will satsify with ower plateform.</p>
       </div>
     <div class="column">
-      <p>Vuemmerce | Made with ❤</p>
+      <img class="logo-footer" src="../../assets/shoesShowX.png" alt="logo image">
     </div>
     </div>
   </div>
@@ -18,4 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .logo-footer {
+    width: 100px
+  }
 </style>

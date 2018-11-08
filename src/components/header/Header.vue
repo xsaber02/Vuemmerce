@@ -3,7 +3,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link :to="{ path: '/', name: 'homepage-component' }" class="navbar-item">
-          <h1 class="title is-3">Vuemmerce</h1>
+        <img class="logo-header" src="../../assets/shoesShowX.png" alt="logo image">
+        <!-- <h1 class="title is-3"></h1> -->
         </router-link>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -95,12 +96,19 @@
   }
   .title { color: #fff; }
   .navbar {
-    background: rgb(46, 149, 212);
+    background: #fff;
   }
   .shopping-cart {
     position: relative;
     right: 50px;
     color: #fff;
     cursor: pointer;
+  }
+  .is-primary {
+    background-color: #d11333
+  }
+  .logo-header {
+    width: 80px;
+    margin-left: 50px;
   }
 </style>

@@ -14,7 +14,7 @@
           </div>
           <div class="content is-clearfix">
             <p>{{ product.description }}</p>
-            <div class="is-pulled-left">
+            <!-- <div class="is-pulled-left">
               <i v-if="product.ratings === 1" class="fa fa-star"></i>
               <i v-if="product.ratings === 2" class="fa fa-star"></i>
               <i v-if="product.ratings === 2" class="fa fa-star"></i>
@@ -31,7 +31,7 @@
               <i v-if="product.ratings === 5" class="fa fa-star"></i>
               <i v-if="product.ratings === 5" class="fa fa-star"></i>
               <p>{{ product.reviews > 0 ? `${product.reviews} Reviews` : 'No reviews' }}</p>
-            </div>
+            </div> -->
             <p class="is-pulled-right"><span class="title is-4"><strong>&euro; {{ product.price }}</strong></span></p>
           </div>
           <div class="card-footer btn-actions">
@@ -85,5 +85,13 @@ export default {
 <style lang="scss" scoped>
   .card {
     margin: 10px;
+  }
+
+  .is-primary {
+    background-color: #5dc993
+  }
+
+  .is-primary.is-inverted{
+    color: #5dc993
   }
 </style>

@@ -3,10 +3,10 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Ecommerce Template for Vue.js projects
+            ShoesShowX Project
           </h1>
           <h2 class="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ShoesShowX คือเว็บไซต์สำหรับ sneaker head ที่ต้องการที่จะ ซื้อ ขาย รองเท้าของแท้
           </h2>
         </div>
       </div>
@@ -15,9 +15,12 @@
 
 <style lang="scss" scoped>
     .hero {
-      background: rgb(81, 186, 252);
+      background: #ffffff;
     }
-    h1, h2 {
-      color: #fff;
+    h1 {
+      color: #000000;
+    }
+    h2 {
+      color: #484848;
     }
 </style>
